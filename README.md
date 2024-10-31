@@ -25,14 +25,10 @@ O programa implementa um verificador de endereços Bitcoin que realiza as seguin
 
 Comando para Executar
 
-Para executar o programa, utilize o seguinte comando no terminal: go run main.go <arquivo_enderecos> <arquivo_saida>
+Para executar o programa, utilize o seguinte comando no terminal:
 
     
-    <arquivo_enderecos>: O arquivo contendo endereços Bitcoin a serem verificados.
-    <arquivo_saida>: O arquivo onde as chaves privadas e endereços encontrados serão salvos.
-
-
-Exemplo de Uso: go run main.go Bitcoin_addresses_LATEST.txt endereços.txt
+   go run main.go Bitcoin_addresses_LATEST.txt endereços.txt
 
 
 Este comando irá executar o programa, verificando os endereços no arquivo Bitcoin_addresses_LATEST.txt e salvando os resultados encontrados no arquivo endereços.txt.
